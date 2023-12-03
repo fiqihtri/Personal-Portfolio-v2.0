@@ -75,7 +75,7 @@ function Headpage() {
             })}
           </div>
 
-          <div className="flex items-center gap-x-3">
+          <div className="flex items-center gap-x-3 mx-3">
             <div
               onClick={() => setTheme(theme == "dark" ? "light" : "dark")}
               className="cursor-pointer"
@@ -86,13 +86,6 @@ function Headpage() {
                 <BsMoon className="dark:text-neutral-700" />
               )}
             </div>
-
-            <Link href={"https://www.linkedin.com/in/fiqihtrieko/"}>
-              <div className="bg-black dark:bg-[#373737]  px-2 rounded-md flex items-center gap-x-2 py-1">
-                <AiOutlinePlusCircle className="text-white tex-3" />
-                <span className="text-white  font-semibold">Hire Me</span>
-              </div>
-            </Link>
           </div>
         </div>
       </div>

@@ -18,12 +18,12 @@ function page() {
                             while distinguishing itself from competitors.
                         </p>
                         <Link href={"https://github.com/fiqihtri/NFTStore-Landing-Page"}>
-                        <div className="border-neutral-300 mt-5 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  w-fit h-8 px-2 rounded-md max-sm:flex-col flex items-center gap-x-1 ">
-                            <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
-                                Source Code
-                            </button>
-                            <FiArrowRight className="text-neutral-500" />
-                        </div>
+                            <div className="border-neutral-300 mt-5 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  max-w-fit h-8 px-2 rounded-md max-sm:flex-col flex items-center gap-x-1 ">
+                                <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
+                                    Source Code
+                                </button>
+                                <FiArrowRight className="text-neutral-500" />
+                            </div>
                         </Link>
                         <div className="mt-8">
                             <Image
@@ -82,26 +82,26 @@ function page() {
                     </div>
 
                     <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
-                        <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-x-2 font-InterRe">
-                                <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
-                                    Follow Me
-                                </h1>
-                            </div>
-
-                            <div className="flex gap-x-2">
-                                <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                        <div className="flex items-center justify-center">
+                            <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                                <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
                                     <FaTiktok className="text-neutral-500 w-6 h-8 dark:text-white" />
-                                </div>
-                                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                                </Link>
+                            </div>
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                                <Link href={"https://www.instagram.com/pikkihh/"}>
                                     <FaInstagram className="text-neutral-500 w-6 h-9 dark:text-white" />
-                                </div>
-                                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
+                                </Link>
+                            </div>
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
+                                <Link href={"https://github.com/fiqihtri"}>
                                     <FaGithub className="text-neutral-500 w-6 h-9 dark:text-white" />
-                                </div>
-                                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
+                                </Link>
+                            </div>
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
+                                <Link href={"https://www.linkedin.com/in/fiqihtrieko/"}>
                                     <FaLinkedinIn className="text-neutral-500 w-6 h-9 dark:text-white" />
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
