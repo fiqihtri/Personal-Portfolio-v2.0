@@ -17,14 +17,14 @@ function page() {
                             An innovative platform that empowers businesses buy and selling NFT, delivering a seamless user experience
                             while distinguishing itself from competitors.
                         </p>
-                        <Link href={"https://github.com/fiqihtri/NFTStore-Landing-Page"}>
-                            <div className="border-neutral-300 mt-5 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  max-w-fit h-8 px-2 rounded-md max-sm:flex-col flex items-center gap-x-1 ">
-                                <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
+                        <div>
+                            <Link href={"https://github.com/fiqihtri/BookShelfApp"} className="flex gap-x-1 items-center my-5">
+                                <button className="text-blue-500 text-sm font-semibold">
                                     Source Code
                                 </button>
-                                <FiArrowRight className="text-neutral-500" />
-                            </div>
-                        </Link>
+                                <FiArrowRight className="text-blue-500" />
+                            </Link>
+                        </div>
                         <div className="mt-8">
                             <Image
                                 className="rounded-lg"
@@ -82,7 +82,7 @@ function page() {
                     </div>
 
                     <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
-                        <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-center gap-x-3">
                             <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
                                 <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
                                     <FaTiktok className="text-neutral-500 w-6 h-8 dark:text-white" />

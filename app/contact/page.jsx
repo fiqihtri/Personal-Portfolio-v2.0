@@ -70,7 +70,7 @@ function page() {
         </div>
 
         <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center gap-x-3">
             <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
               <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
                 <FaTiktok className="text-neutral-500 w-6 h-8 dark:text-white" />
