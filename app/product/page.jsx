@@ -77,6 +77,7 @@ function page() {
               <div className="cursor-pointer relative overflow-hidden hover:overflow-y-scroll h-[280px] overscroll-hidden md:overscroll-contain px-3">
                 {links.map((link) => (
                   <div
+                    key={link.subtitle}
                     className="bg-white dark:bg-[#373737] mt-3  mb-4 rounded-xl  max-md:flex-col max-md:items-start flex items-center justify-between p-5 dark:border-neutral-600  shadow-md drop-shadow-md dark:border max-md:p-7 "
                   >
                     <Link href={link.href}>
