@@ -1,51 +1,136 @@
 "use client";
 
-import { FiArrowRight, FiCopy } from "react-icons/fi";
-import { AiOutlinePlusCircle, AiOutlineDribbble } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { CiLocationArrow1, CiTwitter, CiInstagram } from "react-icons/ci";
+import { FiArrowRight } from "react-icons/fi";
+import { IoMdDownload } from "react-icons/io";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
 import { BsChevronRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 const links = [
   {
-    img: "/img/img1.png",
-    title: "Rectangle",
-    subtitle: ["Product design, Icon design"],
+    title: "Belajar Membuat Front-End Web untuk Pemula",
+    subtitle: ["Dicoding | Nov 2023"],
     icon: <BsChevronRight />,
-    href: "/rectangle",
+    href: "https://www.dicoding.com/certificates/QLZ9RWYR9P5D",
   },
   {
-    img: "/img/wink.png",
-    title: "Morva labs",
-    subtitle: ["Visual design, Branding"],
-    href: "/morvalabs",
+    title: "Belajar Dasar Manajemen Proyek",
+    subtitle: ["Dicoding | Jul 2023"],
+    href: "https://www.dicoding.com/certificates/4EXGNJ0JDZRL",
   },
   {
-    img: "/img/foot.png",
-    title: "Simply",
-    subtitle: ["Landing  page, illustration design"],
-    // u can redirect to other sites here
-    href: "/simply",
+    title: "Belajar Dasar Structured Query Language (SQL)",
+    subtitle: ["Dicoding | Jul 2023"],
+    href: "https://www.dicoding.com/certificates/QLZ9QO3D2Z5D",
+  },
+  {
+    title: "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    subtitle: ["Dicoding | Jul 2023"],
+    href: "https://www.dicoding.com/certificates/07Z6VD0MJXQR",
+  },
+  {
+    title: "Belajar Dasar Pemrograman Web",
+    subtitle: ["Dicoding | Jun 2023"],
+    href: "https://www.dicoding.com/certificates/JMZV9VDLOPN9",
+  },
+  {
+    title: "Belajar Dasar Pemrograman JavaScript",
+    subtitle: ["Dicoding | Oct 2022"],
+    href: "https://www.dicoding.com/certificates/EYX49RK3RPDL",
+  },
+  {
+    title: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+    subtitle: ["Dicoding | Oct 2022"],
+    href: "https://www.dicoding.com/certificates/2VX3YW8GJPYQ",
   },
 ];
 const projects = [
   {
-    img: "/img/pizza.png",
-    title: "Goven",
-    subtitle: "framer template",
-    icon: <BsChevronRight />,
+    img: "/img/html.png",
+    title: "HTML",
+    subtitle: "Hypertext Markup Language",
   },
   {
-    img: "/img/wink.png",
-    title: "Upshifts",
-    subtitle: "Web design collections",
+    img: "/img/css.png",
+    title: "CSS",
+    subtitle: "Cascading Style Sheets",
   },
   {
-    img: "/img/foot.png",
-    title: "Subtle Folio",
-    subtitle: "framer template",
+    img: "/img/js.png",
+    title: "JavaScript",
+    subtitle: "Programming Language",
+  },
+  {
+    img: "/img/reactjs.png",
+    title: "React JS",
+    subtitle: "Library",
+  },
+  {
+    img: "/img/ts.png",
+    title: "TypeScript",
+    subtitle: "Programming Language",
+  },
+  {
+    img: "/img/nextjs.png",
+    title: "Next JS",
+    subtitle: 'Framework',
+  },
+  {
+    img: "/img/tailwindcss.png",
+    title: "TailwindCSS",
+    subtitle: "Framework",
+  },
+  {
+    img: "/img/laravel.svg",
+    title: "Laravel",
+    subtitle: 'Framework',
+  },
+  {
+    img: "/img/php.png",
+    title: "PHP",
+    subtitle: 'scripting language',
+  },
+  {
+    img: "/img/nodejs.png",
+    title: "Node JS",
+    subtitle: 'Runtime',
+  },
+  {
+    img: "/img/mui.png",
+    title: "Material UI",
+    subtitle: 'library',
+  },
+  {
+    img: "/img/bootstrap.png",
+    title: "Bootstrap",
+    subtitle: 'Framework',
+  },
+  {
+    img: "/img/sass.png",
+    title: "SASS",
+    subtitle: 'stylesheet language',
+  },
+  {
+    img: "/img/vite.png",
+    title: "Vite",
+    subtitle: 'tools',
+  },
+  {
+    img: "/img/github.png",
+    title: "Github",
+    subtitle: 'cloud based service',
+  },
+  {
+    img: "/img/mysql.png",
+    title: "MYSQL",
+    subtitle: 'Database',
+  },
+  {
+    img: "/img/firebase.png",
+    title: "Firebase",
+    subtitle: 'Google Services',
   },
 ];
 
@@ -71,7 +156,7 @@ export default function Home() {
                   }}
                   className="text-neutral-700 dark:text-[#C0C0C0] max-md:text-xl font-InterMe"
                 >
-                  Frontend Dev
+                  Frontend Developer
                 </motion.h1>
               </div>
 
@@ -85,11 +170,15 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="  flex-col md:flex-row   my-16 flex items-center md:justify-between">
+            <div className="flex-col md:flex-row   my-16 flex items-center md:justify-between">
               <div className=" sm:order-2   max-md:mt-10 flex md:block md:flex-row items-center  flex-col md:order-1 order-2">
-                <h1 className="text-4xl text-neutral-700 font-InterBo dark:text-white">
-                  I'm Joscript
-                </h1>
+                <div className="flex gap-x-2">
+                  <h1 className="text-4xl text-neutral-700 font-InterBo dark:text-white">
+                    Fiqih Tri
+                  </h1>
+                  <img src="/img/verif.png" className="w-6 h-6 mt-[4px] ml-1"></img>
+                </div>
+
 
                 <motion.p
                   initial={{ x: 100, opacity: 0, filter: "blur(50px)" }}
@@ -99,36 +188,32 @@ export default function Home() {
                     filter: "blur(0px)",
                     transition: { duration: 0.2, delay: 0.3 },
                   }}
-                  className="  text-lg max-md:text-center  my-3 text-neutral-500 dark:text-neutral-300"
+                  className="text-lg max-md:text-center  my-3 text-neutral-500 dark:text-neutral-300"
                 >
-                  Software developer from Nigeria, NG. <br /> Currently working
-                  at Joscript{" "}
+                  Software Developer from Indonesia. <br /> Currently working
+                  as Freelancer.{" "}
                 </motion.p>
 
-                <div className="flex items-center gap-x-2 mt-6 ">
-                  <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
-                    <AiOutlinePlusCircle className="text-white tex-3" />
-                    <span className="text-white  font-semibold">Hire Me</span>
-                  </div>
-                  <div className="border-neutral-300 dark:border-neutral-700/50 shadow-md border  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
-                    <FiCopy className="" />
+                <div className="flex items-center mt-6 ">
+                  <div className="border-neutral-300 dark:bg-[#373737] dark:border-neutral-700/50 shadow-md border cursor-pointer w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
+                    <IoMdDownload className="" />
                     <span className="text-neutral-700 dark:text-white  font-semibold">
-                      Copy Email
+                      Download Resume
                     </span>
                   </div>
                 </div>
               </div>
               <div className="border text-center flex md:justify-center border-neutral-200 dark:border-neutral-700 dark:bg-[#2C2C2C] w-fit md:order-1 order-1 rounded-full p-3 ">
                 <motion.img
-                  initial={{ x: 100, opacity: 0, filter: "blur(50px)" }}
+                  initial={{ x: 100, opacity: 10, filter: "blur(50px)" }}
                   animate={{
                     x: 0,
                     opacity: 1,
                     filter: "blur(0px)",
                     transition: { duration: 0.4, delay: 0.5 },
                   }}
-                  className="w-32 h-32 flex object-cover   rounded-full "
-                  src="/img/img4.png"
+                  className="w-32 h-32 flex object-cover rounded-full "
+                  src="/img/photo.jpg"
                   alt=""
                 />
               </div>
@@ -138,39 +223,35 @@ export default function Home() {
           <div>
             <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6 max-md:p-3 rounded-xl">
               <div className="flex items-center justify-between mt-4">
-                <div className="flex items-center gap-x-2 font-InterRe">
-                  <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
-                  <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
-                    Projects
+                <div>
+                  <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-2xl font-semibold font-InterMe">
+                    Courses
                   </h1>
+                  <p className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
+                    My courses certificates.
+                  </p>
                 </div>
 
-                <div className="border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  w-fit h-8 px-2 rounded-md  flex items-center gap-x-1 ">
-                  <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
-                    View All
-                  </button>
-                  <FiArrowRight className="text-neutral-500" />
-                </div>
+                <Link href={"https://www.dicoding.com/users/fiqihtri/academies"}>
+                  <div className="border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  w-fit h-8 px-2 rounded-md  flex items-center gap-x-1 ">
+                    <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
+                      View All
+                    </button>
+                    <FiArrowRight className="text-neutral-500" />
+                  </div>
+                </Link>
               </div>
               <div className="mt-6">
-                <div className="cursor-pointer">
+                <div className="cursor-pointer relative overflow-hidden hover:overflow-y-scroll h-[300px] overscroll-hidden md:overscroll-contain px-3">
                   {links.map((link) => (
                     <div
                       key={link.img}
                       className="bg-white dark:bg-[#373737] mt-3  mb-4 rounded-xl  max-md:flex-col max-md:items-start flex items-center justify-between p-5 dark:border-neutral-600  shadow-md drop-shadow-md dark:border max-md:p-7 "
                     >
                       <Link href={link.href}>
-                        <div className="flex items-center gap-x-4 max-md:flex-col max-md:items-start">
-                          <div className="drop-shadow-md">
-                            <img
-                              className="w-10 h-10 object-cover rounded-full "
-                              src={link.img}
-                              alt=""
-                            />
-                          </div>
-
-                          <div className="max-md:mt-5">
-                            <h1 className="text-xl font-InterMe ">
+                        <div className="flex items-center gap-x-3 max-md:flex-col max-md:items-start">
+                          <div className="max-md:mt-5 px-1">
+                            <h1 className="text-lg font-InterMe">
                               {link.title}
                             </h1>
                             <div className="text-lg text-neutral-400 max-md:my-1">
@@ -194,72 +275,71 @@ export default function Home() {
           <div>
             <div className="dark:bg-[#2C2C2C] bg-[#F6F8FA] p-6  mt-6 rounded-md">
               <div className="flex items-center gap-x-2 font-InterRe">
-                <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
-                <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
-                  Products
-                </h1>
+                <div>
+                  <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-2xl font-semibold font-InterMe">
+                    Skills
+                  </h1>
+                  <p className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
+                    My coding skills.
+                  </p>
+                </div>
               </div>
 
-              <div className="mt-14">
-                <Link href={"/"}>
-                  {projects.map((link) => (
-                    <div
-                      key={link.subtitle}
-                      className="dark:bg-[#373737] bg-white mt-3 rounded-xl shadow-md flex  max-md:flex-col max-md:items-start items-center justify-between p-5 "
-                    >
-                      <div className="flex  items-center gap-x-4">
-                        <div className="drop-shadow-md ">
-                          <img
-                            className="w-10 h-10 object-cover rounded-full "
-                            src={link.img}
-                            alt=""
-                          />
+              <div className="mt-6">
+                <div className="relative overflow-hidden hover:overflow-y-scroll h-[280px] overscroll-hidden md:overscroll-contain px-3">
+                  <Link href={"/"}>
+                    {projects.map((link) => (
+                      <div
+                        key={link.subtitle}
+                        className="dark:bg-[#373737] bg-white mt-3 rounded-xl shadow-md flex  max-md:flex-col max-md:items-start items-center justify-between p-5 "
+                      >
+                        <div className="flex  items-center gap-x-4">
+                          <div className="drop-shadow-md ">
+                            <img
+                              className="w-10 h-10 object-cover rounded-20 "
+                              src={link.img}
+                              alt=""
+                            />
+                          </div>
+
+                          <div>
+                            <h1 className="text-xl font-InterMe">{link.title}</h1>
+                          </div>
                         </div>
 
-                        <div>
-                          <h1 className="text-xl font-InterMe">{link.title}</h1>
+                        <div className="flex max-md:mt-4 w-fit items-center gap-x-3">
+                          <p className="text-sm font-semibold uppercase text-neutral-40 bg-[#EDEFF3] dark:bg-neutral-600/50 dark:text-neutral-400 text-[#666D80]  px-2 rounded-lg ">
+                            {link.subtitle}
+                          </p>
                         </div>
                       </div>
-
-                      <div className="flex max-md:mt-4 w-fit items-center gap-x-3">
-                        <p className="text-sm font-semibold uppercase text-neutral-40 bg-[#EDEFF3] dark:bg-neutral-600/50 dark:text-neutral-400 text-[#666D80]  px-2 rounded-lg ">
-                          {link.subtitle}
-                        </p>
-                        <div>
-                          <CiLocationArrow1 className="dark:text-neutral-400" />
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </Link>
+                    ))}
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-24 p-2">
+        <div className="mt-24 lg:p-2">
           <div className="mx-auto max-w-md">
             <div>
-              <h2 className=" text-4xl text-center dark:text-white text-[#353849] font-InterBo">
-                Let’s work together.
+              <h2 className=" text-3xl text-center dark:text-white text-[#353849] font-InterBo">
+                We will be partners in the work.
               </h2>
               <p className="text-center mt-3 dark:text-neutral-300 text-[#666D80] text-lg">
-                Creating user experience and visual appealing design
+                Let`s get in touch
               </p>
             </div>
 
             <div className="">
               <div className="flex items-center gap-x-4 justify-center mt-6">
-                <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
-                  <AiOutlinePlusCircle className="text-white tex-3" />
-                  <span className="text-white  font-semibold">Hire Me</span>
-                </div>
-                <div className="border-neutral-300 shadow-md border dark:border-neutral-700  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
-                  <FiCopy className="" />
-                  <span className="text-neutral-700  dark:text-white font-semibold">
-                    Copy Email
-                  </span>
-                </div>
+                <Link href={"/contact"}>
+                  <div className="bg-black dark:bg-[#373737] w-fit shadow-md  px-2 rounded-md flex items-center gap-x-2 py-1">
+                    <MdOutlineMailOutline className="text-white w-5 h-5" />
+                    <span className="text-white font-semibold">Contact Me</span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -267,24 +347,31 @@ export default function Home() {
           <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-x-2 font-InterRe">
-                <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
                 <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
                   Follow Me
                 </h1>
               </div>
 
               <div className="flex gap-x-2">
-                <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1 ">
-                  <CiTwitter className="text-neutral-500 dark:text-white" />
+                <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                  <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
+                    <FaTiktok className="text-neutral-500 w-6 h-8 dark:text-white" />
+                  </Link>
                 </div>
-                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1 ">
-                  <CiInstagram className="text-neutral-500 dark:text-white" />
-                </div>{" "}
-                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-9 h-9 px-2 rounded-full flex justify-center items-center  gap-x-1 ">
-                  <AiOutlineDribbble className="text-neutral-500 dark:text-white" />
+                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                  <Link href={"https://www.instagram.com/pikkihh/"}>
+                    <FaInstagram className="text-neutral-500 w-6 h-9 dark:text-white" />
+                  </Link>
                 </div>
-                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1  ">
-                  <FaLinkedinIn className="text-neutral-500 dark:text-white" />
+                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
+                  <Link href={"https://github.com/fiqihtri"}>
+                    <FaGithub className="text-neutral-500 w-6 h-9 dark:text-white" />
+                  </Link>
+                </div>
+                <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
+                  <Link href={"https://www.linkedin.com/in/fiqihtrieko/"}>
+                    <FaLinkedinIn className="text-neutral-500 w-6 h-9 dark:text-white" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -293,12 +380,12 @@ export default function Home() {
           <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  mt-4 rounded-md">
             <div className="text-center">
               <span className="text-neutral-700 dark:text-neutral-400">
-                © 2023 Joscript Folio – Jo free Templates
+                © 2023 Personal Portfolio
               </span>
               <p className="text-neutral-500">
                 By{" "}
                 <span className="hover:underline  hover:text-neutral-400 text-neutral-700 dark:text-neutral-300">
-                  Joscript
+                  Fiqih Tri
                 </span>
               </p>
             </div>

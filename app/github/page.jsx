@@ -2,9 +2,10 @@ import Link from "next/link";
 import React from "react";
 import { FiArrowRight, FiCopy } from "react-icons/fi";
 import { BsChevronRight } from "react-icons/bs";
+import { MdOutlineMailOutline } from "react-icons/md";
 import { AiOutlineDribbble, AiOutlinePlusCircle } from "react-icons/ai";
 import { CiInstagram, CiTwitter } from "react-icons/ci";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const links = [
   {
@@ -214,7 +215,6 @@ function page() {
           <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-x-2 font-InterRe">
-                <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
                 <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
                   Follow Me
                 </h1>
@@ -240,12 +240,12 @@ function page() {
           <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  mt-4 rounded-md">
             <div className="text-center">
               <span className="text-neutral-700 dark:text-neutral-400">
-                © 2023 Joscript Folio – Framer Template
+                © 2023 Personal Portfolio
               </span>
               <p className="text-neutral-500">
                 By{" "}
                 <span className="hover:underline  hover:text-neutral-400 text-neutral-700 dark:text-neutral-300">
-                  Joscript
+                  Fiqih Tri
                 </span>
               </p>
             </div>

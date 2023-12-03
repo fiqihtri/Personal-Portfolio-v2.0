@@ -1,7 +1,6 @@
 import React from "react";
-import { AiOutlineDribbble } from "react-icons/ai";
-import { CiInstagram, CiTwitter } from "react-icons/ci";
-import { FaLinkedinIn } from "react-icons/fa";
+import { IoSendSharp } from "react-icons/io5";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
 function page() {
   return (
@@ -10,9 +9,8 @@ function page() {
         <div className=" lg:p-6 p-3">
           <div className="flex justify-between  w-full">
             <div className="flex items-center gap-x-2 font-InterRe">
-              <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
               <h1 className="text-neutral-700 dark:text-[#C0C0C0] max-md:text-xl text-xl font-InterRe font-bold">
-                Hire Me
+                Contact
               </h1>
             </div>
             <div className="bg-[#F6F8FA] dark:bg-[#115e3b] h-6 w-6 lg:w-fit lg:px-3 rounded-full flex items-center justify-center gap-x-2">
@@ -24,9 +22,9 @@ function page() {
           </div>
 
           <div className="mt-9">
-            <h1 className="text-4xl font-InterBo">Design Inquiry</h1>
+            <h1 className="text-4xl font-InterBo">Contact Me</h1>
             <p className="dark:text-[#C0C0C0] my-5">
-              Got an idea and need design help? Reach out now
+              Got an idea and need some help? Reach out now
             </p>
 
             <div>
@@ -60,47 +58,58 @@ function page() {
                 ></textarea>
               </div>
 
-              <button className="w-full p-3 rounded-lg text-white dark:bg-neutral-700 bg-black dark:hover:bg-neutral-800 transition-all ease-in-out duration-500 mt-4 font-InterBo">
-                Submit Inquiry
+              <button className="w-full p-3 rounded-lg text-white dark:bg-neutral-700 bg-black dark:hover:bg-neutral-800 flex text-lg justify-center items-center gap-x-2 py-3 transition-all ease-in-out duration-500 mt-4 font-InterBo">
+                <IoSendSharp className="" />
+                <span>
+                  Send
+                </span>
               </button>
             </div>
           </div>
         </div>
+
         <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-x-2 font-InterRe">
-              <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
               <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-lg font-InterMe">
                 Follow Me
               </h1>
             </div>
 
             <div className="flex gap-x-2">
-              <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1 ">
-                <CiTwitter className="text-neutral-500 dark:text-white" />
+              <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
+                  <FaTiktok className="text-neutral-500 w-6 h-8 dark:text-white" />
+                </Link>
               </div>
-              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1 ">
-                <CiInstagram className="text-neutral-500 dark:text-white" />
-              </div>{" "}
-              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-9 h-9 px-2 rounded-full flex justify-center items-center  gap-x-1 ">
-                <AiOutlineDribbble className="text-neutral-500 dark:text-white" />
+              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                <Link href={"https://www.instagram.com/pikkihh/"}>
+                  <FaInstagram className="text-neutral-500 w-6 h-9 dark:text-white" />
+                </Link>
               </div>
-              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-9 h-9 px-2 rounded-full flex items-center justify-center gap-x-1  ">
-                <FaLinkedinIn className="text-neutral-500 dark:text-white" />
+              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
+                <Link href={"https://github.com/fiqihtri"}>
+                  <FaGithub className="text-neutral-500 w-6 h-9 dark:text-white" />
+                </Link>
+              </div>
+              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
+                <Link href={"https://www.linkedin.com/in/fiqihtrieko/"}>
+                  <FaLinkedinIn className="text-neutral-500 w-6 h-9 dark:text-white" />
+                </Link>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  mt-4 rounded-md">
+        <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  my-4 rounded-md">
           <div className="text-center">
             <span className="text-neutral-700 dark:text-neutral-400">
-              © 2023 Joscript Folio – Jo free Templates
+              © 2023 Personal Portfolio
             </span>
             <p className="text-neutral-500">
               By{" "}
               <span className="hover:underline  hover:text-neutral-400 text-neutral-700 dark:text-neutral-300">
-                Joscript
+                Fiqih Tri
               </span>
             </p>
           </div>
