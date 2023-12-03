@@ -2,7 +2,7 @@
 
 import React from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaLinkedinIn, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from "framer-motion";
 

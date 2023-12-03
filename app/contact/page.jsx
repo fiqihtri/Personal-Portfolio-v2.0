@@ -1,6 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import { IoSendSharp } from "react-icons/io5";
-import { FaLinkedinIn, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
 
 function page() {
   return (

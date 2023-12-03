@@ -1,5 +1,6 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
@@ -22,15 +23,17 @@ function page() {
                         <Link href={"https://github.com/fiqihtri/Homestead-Road-UI"}>
                             <div className="border-neutral-300 mt-5 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  w-fit h-8 px-2 rounded-md max-sm:flex-col flex items-center gap-x-1 ">
                                 <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
-                                    Code
+                                    Source Code
                                 </button>
                                 <FiArrowRight className="text-neutral-500" />
                             </div>
                         </Link>
                         <div className="mt-8">
-                            <img
-                                className="aspect-video rounded-lg"
+                            <Image
+                                className="rounded-lg"
                                 src="/img/homestead/web.png"
+                                width={500}
+                                height={500}
                                 alt=""
                             />
                             <p className="my-5 text-lg dark:text-neutral-300  text-neutral-900">
@@ -40,9 +43,11 @@ function page() {
                                 the property at a price typically attractive to first-time home buyers.
                             </p>
 
-                            <img
-                                className="aspect-[4/3] rounded-lg"
+                            <Image
+                                className="rounded-lg"
                                 src="/img/homestead/mobile.png"
+                                width={500}
+                                height={500}
                                 alt=""
                             />
                         </div>

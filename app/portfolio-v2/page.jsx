@@ -1,32 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
-import { BsChevronRight } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
 
-const links = [
-    {
-        img: "/img/img1.png",
-        title: "Rectangle",
-        subtitle: ["Product design, Icon design"],
-        icon: <BsChevronRight />,
-        href: "/rectangle",
-    },
-    {
-        img: "/img/wink.png",
-        title: "Morva labs",
-        subtitle: ["Visual design, Branding"],
-        href: "/morvalabs",
-    },
-    {
-        img: "/img/foot.png",
-        title: "Simply",
-        subtitle: ["Landing  page, illustration design"],
-        // u can redirect to other sites here
-        href: "/simply",
-    },
-];
 
 function page() {
     return (
@@ -39,19 +17,21 @@ function page() {
                             Hello there! I'm Fiqih, a passionate Software Engineer with a love for turning ideas into captivating experiences
                         </p>
 
-                        <Link href={"/"}>
+                        <Link href={"https://github.com/fiqihtri/Personal-Portfolio-v2.0.git"}>
                             <div className="border-neutral-300 mt-5 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border  w-fit h-8 px-2 rounded-md max-sm:flex-col flex items-center gap-x-1 ">
                                 <button className="text-neutral-700 dark:text-white  text-sm font-semibold">
-                                    View All
+                                    Source Code
                                 </button>
                                 <FiArrowRight className="text-neutral-500" />
                             </div>
                         </Link>
 
                         <div className="mt-8">
-                            <img
-                                className="aspect-[4/3] rounded-lg"
+                            <Image
+                                className="rounded-lg"
                                 src="/img/portov2/mobile1.png"
+                                width={500}
+                                height={500}
                                 alt=""
                             />
                             <p className="my-5 text-lg dark:text-neutral-300  text-neutral-900">
@@ -59,15 +39,19 @@ function page() {
                                 We've seen a significant boost in online traffic and conversions.
                             </p>
 
-                            <img
-                                className="aspect-[4/3] rounded-lg"
+                            <Image
+                                className="rounded-lg"
                                 src="/img/portov2/mobile2.png"
+                                width={500}
+                                height={500}
                                 alt=""
                             />
                             <br />
-                            <img
-                                className="aspect-[4/3] rounded-lg my-7"
+                            <Image
+                                className="rounded-lg my-7"
                                 src="/img/portov2/mobile3.png"
+                                width={500}
+                                height={500}
                                 alt=""
                             />
                             <p className="my-5 text-lg dark:text-neutral-300  text-neutral-900">

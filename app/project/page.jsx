@@ -1,12 +1,11 @@
 import Link from "next/link";
-import React from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaLinkedinIn, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
 
 
 function page() {
   return (
-    <div className="bg-white top-24 relative dark:bg-[#212121] shadow-md rounded-xl max-w-xl lg:mx-auto mx-4 lg:max-w-xl max-2xl md:mx-auto sm:mx-auto lg:px-0 ">
+    <div className="bg-white top-24 relative dark:bg-[#212121] shadow-md rounded-xl max-w-xl lg:mx-auto mx-4 lg:max-w-xl max-2xl md:mx-auto sm:mx-auto lg:px-0 " suppressHydrationWarning={true}>
       <div className=" lg:p-6 p-3 max-md:p-5 ">
         <div className="flex items-center mt-4  gap-x-2 ">
           <h1 className="text-neutral-700 dark:text-white text-3xl font-semibold font-InterMe">
@@ -18,7 +17,7 @@ function page() {
           <h1 className="text-xl font-InterBo mt-7 my-3 dark:text-white text-neutral-800">
             [Jan 2023 - Present] Freelance Web Developer
           </h1>
-          <h6 className="mb-1.5 text-lg font-semibold">Software Engineer - Freelancer</h6>
+          <span className="mb-1.5 text-lg font-semibold">Software Engineer - Freelancer</span>
           <p className="text-neutral-700 text-base my-7 leading-8 font-InterRe dark:text-[#C0C0C0]">
             Creation of dashboards for business intelligence and resource planning.
             We help you create custom dashboards that display key information from business intelligence and resource planning, so you can make better, informed business decisions. <br />
@@ -30,16 +29,17 @@ function page() {
           <h1 className="text-xl font-InterBo mt-10 my-3 dark:text-white text-neutral-800">
             [Aug 2022 - Sep 2022] Dinas Perpustakaan dan Kearsipan Daerah Kabupaten Banyumas
           </h1>
-          <h6 className="mb-1.5 text-lg font-semibold">Copywriter - Internship</h6>
-          <p className="text-neutral-700 text-base my-7 leading-8 font-InterRe dark:text-[#C0C0C0]">
+          <span className="mb-1.5 text-lg font-semibold">Copywriter - Internship</span>
+          <p className="text-neutral-700 text-base mt-7 leading-8 font-InterRe dark:text-[#C0C0C0]">
             He participated in the event "Pameran Kearsipan Virtual 2022 Kabupaten Banyumas" organized by Dinas Kearsipan Jawa Tengah, some of the tasks he did:<br />
-            <ul className="list-disc mx-5">
-              <li>Monitor daily Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
-              <li>Create content for Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
-              <li>Editing videos for Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
-              <li>Design innovative content for Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
-            </ul>
           </p>
+          <ul className="list-disc mx-5 text-neutral-700 text-base leading-8 font-InterRe dark:text-[#C0C0C0]">
+            <li>Monitor daily Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
+            <li>Create content for Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
+            <li>Editing videos for Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
+            <li>Design innovative content for Pameran Arsip Virtual 2022 Kabupaten Banyumas</li>
+          </ul>
+
         </div>
 
         <div className="mt-24 lg:p-2 ">

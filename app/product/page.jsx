@@ -93,7 +93,6 @@ function page() {
                         </div>
                       </div>
                     </Link>
-
                     <div className="max-md:hidden md:block">
                       <BsChevronRight />
                     </div>
