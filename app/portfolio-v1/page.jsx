@@ -12,12 +12,12 @@ function page() {
             <div className=" lg:p-6 p-2 max-md:p-5 ">
                 <div className="px-4">
                     <div>
-                        <h1 className="text-3xl font-InterBo my-5">Personal Portfolio v1.0</h1>
+                        <h1 className="text-xl font-InterBo my-5">Personal Portfolio v1.0</h1>
                         <p className="text-lg dark:text-neutral-300  text-neutral-900">
                             Make a simple personal portfolio website for personal branding and screening projects
                         </p>
                         <div>
-                            <Link href={"https://github.com/fiqihtri/BookShelfApp"} className="flex gap-x-1 items-center my-5">
+                            <Link href={"https://github.com/fiqihtri/Personal-Portfolio-v1.0.git"} className="flex gap-x-1 items-center my-5">
                                 <button className="text-blue-500 text-sm font-semibold">
                                     Source Code
                                 </button>

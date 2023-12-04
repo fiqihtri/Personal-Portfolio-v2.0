@@ -12,13 +12,13 @@ function page() {
             <div className=" lg:p-6 p-2 max-md:p-5 ">
                 <div className="px-4">
                     <div>
-                        <h1 className="text-3xl font-InterBo my-5">NFT Store</h1>
+                        <h1 className="text-xl font-InterBo my-5">NFT Store</h1>
                         <p className="text-lg dark:text-neutral-300  text-neutral-900">
                             An innovative platform that empowers businesses buy and selling NFT, delivering a seamless user experience
                             while distinguishing itself from competitors.
                         </p>
                         <div>
-                            <Link href={"https://github.com/fiqihtri/BookShelfApp"} className="flex gap-x-1 items-center my-5">
+                            <Link href={"https://github.com/fiqihtri/NFTStore-Landing-Page.git"} className="flex gap-x-1 items-center my-5">
                                 <button className="text-blue-500 text-sm font-semibold">
                                     Source Code
                                 </button>

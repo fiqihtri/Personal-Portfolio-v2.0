@@ -12,7 +12,7 @@ function page() {
             <div className=" lg:p-6 p-2 max-md:p-5 ">
                 <div className="px-4">
                     <div>
-                        <h1 className="text-3xl font-InterBo my-5">BookShelf App</h1>
+                        <h1 className="text-xl font-InterBo my-5">BookShelf App</h1>
                         <p className="text-lg dark:text-neutral-300  text-neutral-900">
                             Bookshelf App that can enter book data into the shelf, move book data between shelves, and delete book data from the shelf. using JavaScript, Browser Object, DOM, Event, and Web Storage for Data Management Application.
                         </p>
