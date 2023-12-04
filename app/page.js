@@ -377,7 +377,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  my-5 mx-5 rounded-md lg:my-5">
+          <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  mt-4 mb-10 mx-5 rounded-md">
             <div className="text-center">
               <span className="text-neutral-700 dark:text-neutral-400">
                 © 2023 Personal Portfolio
