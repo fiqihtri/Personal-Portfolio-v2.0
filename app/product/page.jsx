@@ -46,7 +46,7 @@ function page() {
     >
       <div className=" lg:p-6 p-4 max-md:p-5 ">
         <div className=" mt-5 md:px-6 p-2 ">
-          <h1 className="text-1xl font-InterBo mt-7 my-3 dark:text-white text-neutral-800">
+          <h1 className="text-2xl font-InterBo mt-7 my-3 dark:text-white text-neutral-800">
             Explore My Projects
           </h1>
           <p className="text-neutral-700 text-base my-7 leading-8 font-InterRe dark:text-[#C0C0C0]">
