@@ -59,7 +59,7 @@ function page() {
           <div className="dark:bg-[#2C2C2C] bg-[#F6F8FA] md:p-6 p-2  mt-6 rounded-md">
             <div className="flex items-center justify-between mt-4 font-InterRe">
               <div>
-                <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-2xl font-semibold font-InterMe">
+                <h1 className="text-neutral-700 dark:text-[#C0C0C0] text-2xl pl-3 font-semibold font-InterMe">
                   Projects
                 </h1>
               </div>
