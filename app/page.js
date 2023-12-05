@@ -379,7 +379,7 @@ export default function Home() {
               </div>
               <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
                 <Link href={"https://www.linkedin.com/in/fiqihtrieko/"}>
-                  <FaLinkedinIn className="text-neutral-500 w-6 h-9 dark:text-white" />
+                  <FaLinkedinIn className="text-neutral-500 w-5 h-8 dark:text-white" />
                 </Link>
               </div>
             </div>
