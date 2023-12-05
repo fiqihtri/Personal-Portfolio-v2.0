@@ -5,7 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { MdVerified } from "react-icons/md";
 import { AiOutlinePlusCircle } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok, FaDiscord } from "react-icons/fa";
 import { BsChevronRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -365,6 +365,11 @@ export default function Home() {
               <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
                 <Link href={"https://www.instagram.com/pikkihh/"}>
                   <FaInstagram className="text-neutral-500 w-6 h-9 dark:text-white" />
+                </Link>
+              </div>
+              <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                <Link href={"https://discordapp.com/users/1075939615908839474"}>
+                  <FaDiscord className="text-neutral-500 w-6 h-9 dark:text-white" />
                 </Link>
               </div>
               <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
