@@ -123,24 +123,6 @@ function page() {
 
         <ol className="border-l border-neutral-300 dark:border-neutral-500">
           <li>
-            <div className="flex-start flex items-center pt-3">
-              <div
-                className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-              <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                2017 - 2019
-              </p>
-            </div>
-            <div className="mb-6 ml-4 mt-2">
-              <h4 className="mb-1.5 text-xl font-semibold">Vocational High School 1 Purwokerto</h4>
-              <h6 className="mb-1.5 text-lg font-semibold">Software Engineer</h6>
-              <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                C++, Java, PHP, HTML, CSS, Android, Laravel, Computer Network, Algorithm and Structure Data, Database Management System,
-                Operation System, Web Progamming.
-              </p>
-            </div>
-          </li>
-
-          <li>
             <div className="flex-start flex items-center pt-2">
               <div
                 className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
@@ -156,6 +138,23 @@ function page() {
                 Analysis of Information Systems Design, Object-Oriented Programming, Database Management System, Computer Network, Data Mining,
                 Software Engineer, Customers Relationship Management, IT-Business Strategic Alignment, Design and Web Programming,
                 IT Service Management, Supply Chain Management.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="flex-start flex items-center pt-3">
+              <div
+                className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
+              <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                2017 - 2019
+              </p>
+            </div>
+            <div className="mb-6 ml-4 mt-2">
+              <h4 className="mb-1.5 text-xl font-semibold">Vocational High School 1 Purwokerto</h4>
+              <h6 className="mb-1.5 text-lg font-semibold">Software Engineer</h6>
+              <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                Learn about C++, Java, PHP, HTML, CSS, Android, Laravel, Computer Network, Algorithm and Structure Data, Database Management System,
+                Operation System, Web Progamming.
               </p>
             </div>
           </li>
