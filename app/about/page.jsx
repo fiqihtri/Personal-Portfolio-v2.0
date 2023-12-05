@@ -127,7 +127,7 @@ function page() {
               <div
                 className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
               <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                2019 - 2023
+                2019
               </p>
             </div>
             <div className="mb-6 ml-4 mt-2">
@@ -146,7 +146,7 @@ function page() {
               <div
                 className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
               <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                2017 - 2019
+                2017
               </p>
             </div>
             <div className="mb-6 ml-4 mt-2">
