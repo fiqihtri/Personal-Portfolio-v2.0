@@ -332,7 +332,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-24 lg:p-2">
+        <div className="mt-24 pb-1 lg:p-2">
           <div className="mx-auto max-w-md">
             <div>
               <h2 className=" text-2xl text-center dark:text-white text-[#353849] font-InterBo">

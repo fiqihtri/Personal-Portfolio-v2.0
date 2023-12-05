@@ -59,7 +59,7 @@ function page() {
                         </div>
                     </div>
 
-                    <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 mx-5 rounded-md">
+                    <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
                         <div className="flex items-center justify-center gap-x-3">
                             <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
                                 <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
