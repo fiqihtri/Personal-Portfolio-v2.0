@@ -203,14 +203,15 @@ export default function Home() {
                       <span className="text-white  font-semibold">Hire Me</span>
                     </div>
                   </Link>
-                  <div className="border-neutral-300 dark:bg-[#373737] dark:border-neutral-700/50 shadow-md border cursor-pointer w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
-                    <IoMdDownload className="" />
-                    <Link href={"https://bit.ly/484DKM2"}>
+                  <Link href={"https://bit.ly/484DKM2"}>
+                    <div className="border-neutral-300 dark:bg-[#373737] dark:border-neutral-700/50 shadow-md border cursor-pointer w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
+                      <IoMdDownload className="" />
+
                       <span className="text-neutral-700 dark:text-white  font-semibold">
                         Download Resume
                       </span>
-                    </Link>
-                  </div>
+                    </div>
+                  </Link>
                 </div>
               </div>
               <div className="border text-center flex md:justify-center border-neutral-200 dark:border-neutral-700 dark:bg-[#2C2C2C] w-fit md:order-1 order-1 rounded-full p-3 ">
