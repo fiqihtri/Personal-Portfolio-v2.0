@@ -205,9 +205,11 @@ export default function Home() {
                   </Link>
                   <div className="border-neutral-300 dark:bg-[#373737] dark:border-neutral-700/50 shadow-md border cursor-pointer w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
                     <IoMdDownload className="" />
-                    <span className="text-neutral-700 dark:text-white  font-semibold">
-                      Download Resume
-                    </span>
+                    <Link href={"https://bit.ly/484DKM2"}>
+                      <span className="text-neutral-700 dark:text-white  font-semibold">
+                        Download Resume
+                      </span>
+                    </Link>
                   </div>
                 </div>
               </div>
