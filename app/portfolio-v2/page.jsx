@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok, FaDiscord } from "react-icons/fa";
 
 
 function page() {
@@ -87,26 +87,31 @@ function page() {
                         </div>
                     </div>
 
-                    <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 rounded-md">
+                    <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 mx-5 rounded-md">
                         <div className="flex items-center justify-center gap-x-3">
-                            <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                            <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
                                 <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
-                                    <FaTiktok className="text-neutral-500 w-6 h-8 dark:text-white" />
+                                    <FaTiktok className="text-neutral-500 w-5 h-7 dark:text-white" />
                                 </Link>
                             </div>
-                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
                                 <Link href={"https://www.instagram.com/pikkihh/"}>
-                                    <FaInstagram className="text-neutral-500 w-6 h-9 dark:text-white" />
+                                    <FaInstagram className="text-neutral-500 w-5 h-8 dark:text-white" />
                                 </Link>
                             </div>
-                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
+                                <Link href={"https://discordapp.com/users/1075939615908839474"}>
+                                    <FaDiscord className="text-neutral-500 w-5 h-8 dark:text-white" />
+                                </Link>
+                            </div>
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-10 h-10 px-2 rounded-full flex justify-center items-center  gap-x-1 hover:cursor-pointer">
                                 <Link href={"https://github.com/fiqihtri"}>
-                                    <FaGithub className="text-neutral-500 w-6 h-9 dark:text-white" />
+                                    <FaGithub className="text-neutral-500 w-5 h-8 dark:text-white" />
                                 </Link>
                             </div>
-                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-12 h-12 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
+                            <div className="border-neutral-300 bg-white shadow-md drop-shadow-md border dark:bg-[#373737]  dark:border-none w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1  hover:cursor-pointer">
                                 <Link href={"https://www.linkedin.com/in/fiqihtrieko/"}>
-                                    <FaLinkedinIn className="text-neutral-500 w-6 h-9 dark:text-white" />
+                                    <FaLinkedinIn className="text-neutral-500 w-5 h-8 dark:text-white" />
                                 </Link>
                             </div>
                         </div>
