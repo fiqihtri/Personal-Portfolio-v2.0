@@ -7,7 +7,7 @@ import { IoSendSharp } from "react-icons/io5";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok, FaDiscord } from "react-icons/fa";
 
 
-function page() {
+function Page() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -147,4 +147,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
