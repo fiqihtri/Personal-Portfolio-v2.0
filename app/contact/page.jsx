@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from "next/link";
 import { IoSendSharp } from "react-icons/io5";
