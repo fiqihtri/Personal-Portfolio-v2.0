@@ -1,15 +1,15 @@
 "use client";
 
-import React, { useRef } from 'react';
+import { useRef as useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from "next/link";
 import { IoSendSharp } from "react-icons/io5";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok, FaDiscord } from "react-icons/fa";
 
 
-function page() {
+function Page() {
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -147,4 +147,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
