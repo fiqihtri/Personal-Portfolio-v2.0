@@ -1,13 +1,13 @@
 "use client";
 
-import { useRef as useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from "next/link";
 import { IoSendSharp } from "react-icons/io5";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok, FaDiscord } from "react-icons/fa";
 
 
-function Page() {
+function page() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -99,7 +99,7 @@ function Page() {
           </div>
         </div>
 
-        <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 mx-5 rounded-md">
+        <div className="bg-[#F6F8FA] p-6 dark:bg-[#2C2C2C]  mt-14 mx-4 rounded-md">
           <div className="flex items-center justify-center gap-x-3">
             <div className="border-neutral-300 bg-white dark:bg-[#373737] dark:border-none shadow-md drop-shadow-md border  w-10 h-10 px-2 rounded-full flex items-center justify-center gap-x-1 hover:cursor-pointer">
               <Link href={"https://www.tiktok.com/@lepismaaa_?_t=8hsTRNukhrW"}>
@@ -129,7 +129,7 @@ function Page() {
           </div>
         </div>
 
-        <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  my-4 mx-5 rounded-md">
+        <div className="bg-[#F6F8FA] dark:bg-[#2C2C2C] p-6  my-4 mx-4 rounded-md">
           <div className="text-center">
             <span className="text-neutral-700 dark:text-neutral-400">
               © 2023 Personal Portfolio
@@ -147,4 +147,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default page;
