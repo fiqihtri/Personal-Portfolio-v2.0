@@ -7,9 +7,9 @@ import { IoSendSharp } from "react-icons/io5";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaTiktok, FaDiscord } from "react-icons/fa";
 
 
-
 function page() {
   const form = useRef();
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
