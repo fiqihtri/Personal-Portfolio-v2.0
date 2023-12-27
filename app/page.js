@@ -192,7 +192,7 @@ export default function Home() {
                   }}
                   className="text-lg max-md:text-center  my-3 text-neutral-500 dark:text-neutral-300"
                 >
-                  Software Developer from Indonesia. <br /> Currently working
+                  Software Engineer from Indonesia. <br /> Currently working
                   as Freelancer.{" "}
                 </motion.p>
 
